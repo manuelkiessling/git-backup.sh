@@ -1,8 +1,10 @@
+# Blank lines and lines starting with # are ignored
+
 # local mirror only
 git@bitbucket.org:foo/bar.git
 
 # local mirror for Bitbucket, remote mirror to GitHub
 git@bitbucket.org:foo/bar.git github:git@github.com:foo/bar.git
 
-# HTTP urls are fine, too
+# HTTP urls are fine, too, mix and match as needed
 https://your-username@bitbucket.org/foo/bar.git github:git@github.com:foo/bar.git
